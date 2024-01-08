@@ -1,0 +1,15 @@
+from random import randrange
+num = randrange(1,101)
+c = int(input())
+if c < num:
+    print("больше")
+else:
+    print("меньше")
+while c != num:
+    c = int(input())
+    if c < num:
+        print("больше")
+    else:
+        print("меньше")
+
+print("ВЫ ПОБЕДИЛИ,НО ВЫ ВСЁ РАВНО ПРОИГРАЛИ ХА ХА ХА ХА ХА")
